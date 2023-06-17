@@ -1,5 +1,5 @@
 // Ruta del archivo XML
-const xmlFilePath = "xml/grilla.xml";
+const xmlFilePath = "xml/reportv_23061603552306240350.xml";
 const xmlCategoryPath = "xml/grilla-category.xml";
 
 // Función para convertir una cadena de fecha y hora en un objeto Date en GMT-3
