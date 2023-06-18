@@ -15,6 +15,8 @@
     <!-- SweetAlert -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.5/dist/sweetalert2.min.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.5/dist/sweetalert2.all.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/28600abaf0.js" crossorigin="anonymous"></script>
 </head>
 <body class="bg-black">
     <header class="sticky-top bg-dark">
@@ -69,16 +71,14 @@
       <div class="">
         <div class="px-2 py-2 text-center mb-2">
           <h2 class="text-light">Mira nuestra grillas y su programacion por dia</h2>
-          <div class="d-md-flex align-items-center text-light p-3 bg_black">
-            
+          <div class="d-lg-flex align-items-center text-light p-3 bg_black">
             <div class="d-md-flex align-items-center text-light p-3 position-relative bg_black">
-              <div class="col-lg-6 d-lg-block">
+              <div class="col-lg-6 d-none d-lg-block">
                 <video playsinline="" autoplay="" muted="" loop="">
-                  <source src="asets/video/ElCuatro-BANNER-GO-520X400.mp4">
+                  <source src="https://static-c4-1.s3.amazonaws.com/assets/videos/ElCuatro-BANNER-GO-520X400.mp4?92.4">
                 </video>
               </div>
             </div>
-
             <!-- Botones Filtro -->
             <div class="d-grid justify-content-center btn-toolbar" role="toolbar" aria-label="Toolbar with button groups" id="filter">
               <!-- 1er Grupo de Botones -->
@@ -141,32 +141,128 @@
       </div>
     </main>
 
-    <footer class="bg-dark d-flex flex-column align-items-center text-light">
-        <div class="d-flex justify-content-center align-items-center gap-5">
-          <div class="">
-            <h2>titulo</h2>
-          </div>
-
-          <div class="">
-            <h2>Comunicate</h2>
-          </div>
-
-          <div class="">
-            <h2>Seguinos</h2>
-          </div>
-
-          <div class="">
-            <h2>Nuestras marcas</h2>
+    <footer class="bg-dark pt-5">
+      <div class="container">
+        <div class="d-none d-lg-block text-light">
+          <div class="row">
+            <div class="col-md-3 mb-5 company">
+              <div class="logo mb-2">
+                <a href="https://www.elcuatro.com/" target="_blank"><img src="https://s3.amazonaws.com/static-c4-1/assets/img/logos/elcuatro-logo-100x124.png" srcset="https://s3.amazonaws.com/static-c4-1/assets/img/logos/elcuatro-logo-100x124@2x.png 2x" alt="El Cuatro"></a>
+              </div>
+              <p>Los servicios que presta El Cuatro están sujetos a disponibilidad técnica y geográfica dentro del territorio de la Provincia de Jujuy</p>
+              <p>Todos los derechos reservados - ©2023</p>
+            </div>
+    
+            <div class="col-md-3 mb-5">
+              <div class="titulo mb-4">Comunicate</div>
+              <ul class="phone">
+                <li class="mb-1"><i class="fas fa-headset" aria-hidden="true"></i> 0810 444 5900</li>
+                <li class="mb-1"><a href="https://wa.me/5493884245995" target="_blank"><i class="fab fa-whatsapp" aria-hidden="true"></i> 3884245995</a> <small style="font-size:0.9rem">(sólo mensajes)</small></li>
+                <li><i class="fas fa-phone" aria-hidden="true"></i> 4245900</li>
+              </ul>
+            </div>
+    
+            <div class="col-md-3 mb-5">
+              <div class="titulo mb-4">Seguinos</div>
+              <ul class="social">
+                <li class="mb-1"><a href="https://www.facebook.com/canal4jujuy" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i> canal4jujuy</a></li>
+                <li class="mb-1"><a href="https://twitter.com/canal4jujuy" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i> @canal4jujuy</a></li>
+                <li class="mb-1"><a href="https://www.youtube.com/user/canal4jujuy" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i> canal4jujuy</a></li>
+                <li><a href="https://www.instagram.com/canal4jujuy" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i> canal4jujuy</a></li>
+              </ul>
+            </div>
+    
+            <div class="col-md-3 mb-5 text-light">
+              <div class="titulo mb-4">Nuestras marcas</div>
+              <div style="width:80%">
+                <a class="d-block mb-3" href="https://www.todojujuy.com/" target="_blank"><img style="width:90%;" src="https://www.elcuatro.com/public/img/footer-logo-tj.png?v=92.4" alt="Todo Jujuy"></a>
+                <a class="d-block mb-3" href="https://www.boxerseguridad.com.ar/" target="_blank"><img style="width:65%;" src="https://www.elcuatro.com/public/img/footer-logo-bxr.png?v=92.4" alt="Boxer Seguridad"></a>
+                <a class="d-block mb-3" href="https://canal4jujuy.elcuatro.com" target="_blank"><img style="width:90%;" src="https://www.elcuatro.com/public/img/footer-logo-c4.png?v=92.4" alt="Canal 4 Jujuy"></a>
+                <div class="d-flex justify-content-center">
+                  <div class="me-4">
+                    <a class="" href="http://www.radiocityfm.com/" target="_blank"><img class="img-fluid" src="https://www.elcuatro.com/public/img/footer-logo-rc.png?v=92.4" alt="Radio City"></a>
+                  </div>
+                  <div class="me-2">
+                    <a class="" href="http://www.radiofiestafm.com.ar/" target="_blank"><img class="img-fluid" src="https://www.elcuatro.com/public/img/footer-logo-rf.png?v=92.4" alt="Radio Fiesta"></a>
+                  </div>
+                  <div class="ms-2">
+                    <a class="" href="https://radiomitrejujuy.com.ar/" target="_blank"><img class="img-fluid" src="https://www.elcuatro.com/public/img/footer-logo-mitre.png?v=92.4" alt="Radio Mitre Jujuy"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="d-flex text-light">
-            <a href="http://" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-light">Recursos humanos</a>
-            <a href="http://" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-light">Denuncias Anónimas</a>
-            <a href="http://" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-light">Términos y Condiciones</a>
-            <a href="http://" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-light">Solicitud de baja</a>
-            <a href="http://" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-light">Publicidad</a>
-            <a href="http://" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-light">Sucursal Virtual</a>
+    
+        <!-- =========================
+           FOOTER MOBILE
+        ============================== -->
+    
+        <div class="d-lg-none" style="font-size:80%;">
+          <div class="row">
+            <div class="col-6 text-light">
+              <div class="titulo mb-3">Comunicate</div>
+              <ul class="phone">
+                <li class="mb-1"><a href="tel:08104445900"><i class="fas fa-headset" aria-hidden="true"></i> 0810 444 5900</a></li>
+                <li><a href="https://wa.me/5493884245995" target="_blank"><i class="fab fa-whatsapp" aria-hidden="true"></i> 3884245995</a><br><small style="font-size:0.9rem">(sólo mensajes)</small></li>
+                <li><i class="fas fa-phone" aria-hidden="true"></i> 4245900</li>
+              </ul>
+              <div class="titulo mb-3">Seguinos</div>
+              <ul class="social">
+                <li class="mb-1"><a href="https://www.facebook.com/canal4jujuy" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i> canal4jujuy</a></li>
+                <li class="mb-1"><a href="https://twitter.com/canal4jujuy" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i> @canal4jujuy</a></li>
+                <li class="mb-1"><a href="https://www.youtube.com/user/canal4jujuy" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i> canal4jujuy</a></li>
+                <li><a href="https://www.instagram.com/canal4jujuy" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i> canal4jujuy</a></li>
+              </ul>
+            </div>
+            <div class="col-6 text-light">
+              <div class="titulo mb-3">Nuestras marcas</div>
+              <div>
+                <a class="d-block mb-3" href="https://www.todojujuy.com/" target="_blank"><img style="width:90%;" src="https://www.elcuatro.com/public/img/footer-logo-tj.png?v=92.4" alt="Todo Jujuy"></a>
+                <a class="d-block mb-3" href="https://www.boxerseguridad.com.ar/" target="_blank"><img style="width:65%;" src="https://www.elcuatro.com/public/img/footer-logo-bxr.png?v=92.4" alt="Boxer Seguridad"></a>
+                <a class="d-block mb-3" href="https://canal4jujuy.elcuatro.com" target="_blank"><img style="width:90%;" src="https://www.elcuatro.com/public/img/footer-logo-c4.png?v=92.4" alt="Canal 4 Jujuy"></a>
+                <div class="d-flex justify-content-center">
+                  <div class="me-4">
+                    <a class="" href="http://www.radiocityfm.com/" target="_blank"><img class="img-fluid" src="https://www.elcuatro.com/public/img/footer-logo-rc.png?v=92.4" alt="Radio City"></a>
+                  </div>
+                  <div class="me-2">
+                    <a class="" href="http://www.radiofiestafm.com.ar/" target="_blank"><img class="img-fluid" src="https://www.elcuatro.com/public/img/footer-logo-rf.png?v=92.4" alt="Radio Fiesta"></a>
+                  </div>
+                  <div class="ms-2">
+                    <a class="" href="https://radiomitrejujuy.com.ar/" target="_blank"><img class="img-fluid" src="https://www.elcuatro.com/public/img/footer-logo-mitre.png?v=92.4" alt="Radio Mitre Jujuy"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+    
+        <div class="row">
+          <div class="col py-3">
+            <div class="footer-menu text-center">
+              <ul class="d-flex justify-content-between flex-wrap">
+                <li><a href="https://www.elcuatro.com/recursos-humanos">Recursos Humanos</a></li>
+                <li><a href="https://www.elcuatro.com/denuncias">Denuncias Anónimas</a></li>
+                <li><a href="https://www.elcuatro.com/terminos-y-condiciones">Términos y Condiciones</a></li>
+                <li><a href="https://sucursalvirtual.elcuatro.com/" target="_blank">Solicitud de baja</a></li>
+                <li><a href="https://mediakit.elcuatro.com/" target="_blank">Publicidad</a></li>
+                <li><a href="https://sucursalvirtual.elcuatro.com" target="_blank">Sucursal Virtual</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <section class="d-lg-none" style="background-color: #282829;">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center text-secondary py-4">
+              <p>Los servicios que presta El Cuatro están sujetos a disponibilidad técnica y geográfica dentro del territorio de la Provincia de Jujuy</p>
+              <p>Todos los derechos reservados - ©2023</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </footer>
 
     <script src="js/crear-botones.js"></script>

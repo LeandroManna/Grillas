@@ -5,18 +5,63 @@
   }
 
   body {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     min-height: 100vh;
-    grid-template-rows: auto 1fr auto;
   }
 
   main {
     overflow-y: auto;
+    flex-grow: 1;
   }
   
   footer {
-    flex-shrink: 0;
+    
   }
+  footer li {
+    list-style: none;
+}
+
+footer .titulo {
+  font-size: 1.7em;
+  margin-bottom: 15px;
+}
+
+footer .company p {
+  font-size: 0.8em;
+}
+
+footer .company {
+  color: #939393;
+}
+
+footer .phone, footer .social {
+  font-size: 1.4em;
+  color: #939393;
+}
+
+footer ul, footer ol {
+  padding-left: 0 !important;
+}
+
+  .footer-menu a {
+    color: #666666;
+}
+
+footer .phone a, footer .social a {
+  font-size: 1.4em;
+  color: #939393;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer-menu > ul li {
+  display: inline-block;
+  margin-left: 3%;
+  margin-right: 3%;
+}
   
   .boton-cuadrado {
     width: 150px;
