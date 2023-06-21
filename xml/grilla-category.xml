@@ -251,18 +251,18 @@
     <channel-name>VOLVER</channel-name>
     <category-name>Entretenimiento</category-name>
   </channel>
-  <channel broadcaster="101" id="183">
+  <!-- <channel broadcaster="101" id="183">
     <channel-name>WARNER HD</channel-name>
     <category-name>Entretenimiento</category-name>
-  </channel>
+  </channel> -->
   <channel broadcaster="101" id="184">
     <channel-name>AMERICA 24</channel-name>
     <category-name>Noticias</category-name>
   </channel>
-  <channel broadcaster="101" id="185">
+  <!-- <channel broadcaster="101" id="185">
     <channel-name>CN 23</channel-name>
     <category-name>Noticias</category-name>
-  </channel>
+  </channel> -->
   <channel broadcaster="101" id="186">
     <channel-name>PLAYBOY</channel-name>
     <category-name>Adultos</category-name>
@@ -405,14 +405,14 @@
   </channel>
   <channel broadcaster="101" id="224">
     <channel-name>CANAL A</channel-name>
-    <category-name>Entretenimiento</category-name>
+    <category-name>Documentales</category-name>
   </channel>
   <channel broadcaster="101" id="225">
     <channel-name>H2</channel-name>
     <category-name>Documentales</category-name>
   </channel>
   <channel broadcaster="101" id="226">
-    <channel-name>TBS VERYFUNNY SUR</channel-name>
+    <channel-name>TBS VERYFUNNY</channel-name>
     <category-name>Entretenimiento</category-name>
   </channel>
   <channel broadcaster="101" id="227">

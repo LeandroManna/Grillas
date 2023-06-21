@@ -16,6 +16,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.5/dist/sweetalert2.min.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.5/dist/sweetalert2.all.min.js"></script>
 
+    <!-- Incluir las bibliotecas de Video.js -->
+  <link href="https://vjs.zencdn.net/7.15.4/video-js.min.css" rel="stylesheet">
+  <script src="https://vjs.zencdn.net/7.15.4/video.min.js"></script>
+
     <script src="https://kit.fontawesome.com/28600abaf0.js" crossorigin="anonymous"></script>
 </head>
 <body class="bg-black">
@@ -69,8 +73,15 @@
 
     <main class="my-1 flex-grow-1">
       <div class="">
+
+        <!-- Agregar un contenedor para el reproductor de video -->
+        <div class="d-none video-container d-flex justify-content-center my-3">
+          <video id="videoPlayer" class="video-js vjs-default-skin"></video>
+        </div>
+        
         <div class="px-2 py-2 text-center mb-2">
-          <h2 class="text-light">Mira nuestra grillas y su programacion por dia</h2>
+          <h2 class="text-light">Mira nuestra grillas y su programacion por dia del 4Go HD</h2>
+
           <div class="d-lg-flex align-items-center text-light p-3 bg_black">
             <div class="d-md-flex align-items-center text-light p-3 position-relative bg_black">
               <div class="col-lg-6 d-none d-lg-block">
@@ -78,6 +89,7 @@
                   <source src="https://static-c4-1.s3.amazonaws.com/assets/videos/ElCuatro-BANNER-GO-520X400.mp4?92.4">
                 </video>
               </div>
+              
             </div>
             <!-- Botones Filtro -->
             <div class="d-grid justify-content-center btn-toolbar" role="toolbar" aria-label="Toolbar with button groups" id="filter">
@@ -126,18 +138,6 @@
         <div id="tvChannels" class="d-flex flex-wrap justify-content-center mb-2">
           <!-- Aquí se generarán dinámicamente los botones de los canales -->
         </div>
-  
-          <div class="table-container d-none">
-            <table id="grilla-canales" class="table table-dark table-striped">
-              <thead>
-                <tr>
-                </tr>
-              </thead>
-              <tbody>
-                <!-- Aquí se generarán dinámicamente las filas de la tabla -->
-              </tbody>
-            </table>
-          </div>
       </div>
     </main>
 
@@ -266,45 +266,7 @@
     </footer>
 
     <script src="js/crear-botones.js"></script>
+    <script src="js/filtro-buttons.js"></script>
 
-    <script> //SCRIPT DE FILTRO
-      // Obtener todos los botones de filtro
-      const filterButtons = document.querySelectorAll("#filter button");
-
-      // Función para filtrar los botones por categoría
-      function filterButtonsByCategory(category) {
-        const buttons = document.querySelectorAll("#tvChannels button");
-      
-        buttons.forEach(button => {
-          const buttonCategory = button.getAttribute("data-category");
-        
-          // Mostrar u ocultar el botón según la categoría seleccionada
-          if (category === "todos" || buttonCategory === category) {
-            button.style.display = "block";
-          } else {
-            button.style.display = "none";
-          }
-        });
-      }
-
-      // Agregar el evento de clic a cada botón de filtro
-      filterButtons.forEach(button => {
-        button.addEventListener("click", function () {
-          const category = this.getAttribute("id");
-          filterButtonsByCategory(category);
-        });
-      });
-
-      // Agregar evento de clic al botón "Mostrar todos"
-      const showAllButton = document.getElementById("todos");
-      showAllButton.addEventListener("click", function () {
-        location.reload();
-      });
-    </script>
-    
-    
-    
-    
-    
 </body>
 </html>
