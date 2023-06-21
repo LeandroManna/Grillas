@@ -30,3 +30,20 @@ const showAllButton = document.getElementById("todos");
 showAllButton.addEventListener("click", function () {
   location.reload();
 });
+
+// Obtener el elemento del título del filtro
+const tituloFiltro = document.getElementById('titulo-filtro');
+    
+// Obtener todos los botones de filtro
+const botonesFiltro = document.querySelectorAll('#filter button');
+
+// Agregar un controlador de eventos a cada botón de filtro
+botonesFiltro.forEach((boton) => {
+  boton.addEventListener('click', (event) => {
+    // Obtener el nombre del filtro del botón
+    const filtro = event.target.getAttribute('data-filter');
+
+    // Actualizar el contenido del elemento del título del filtro
+    tituloFiltro.textContent = filtro;
+  });
+});

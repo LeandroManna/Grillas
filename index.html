@@ -17,8 +17,8 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.5/dist/sweetalert2.all.min.js"></script>
 
     <!-- Incluir las bibliotecas de Video.js -->
-  <link href="https://vjs.zencdn.net/7.15.4/video-js.min.css" rel="stylesheet">
-  <script src="https://vjs.zencdn.net/7.15.4/video.min.js"></script>
+    <link href="https://vjs.zencdn.net/7.15.4/video-js.min.css" rel="stylesheet">
+    <script src="https://vjs.zencdn.net/7.15.4/video.min.js"></script>
 
     <script src="https://kit.fontawesome.com/28600abaf0.js" crossorigin="anonymous"></script>
 </head>
@@ -79,9 +79,18 @@
           <video id="videoPlayer" class="video-js vjs-default-skin"></video>
         </div>
         
-        <div class="px-2 py-2 text-center mb-2">
-          <h2 class="text-light">Mira nuestra grillas y su programacion por dia del 4Go HD</h2>
+        <section class="bg-black">
+          <div class="container">
+            <div class="row page-header bg-strip-blue">
+              <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 column">
+                <h1 class="text-white mb-3">Grilla de canales</h1>
+                <h5 style="color: #939393;">Te ofrecemos la grilla más completa con entretenimiento para toda la familia</h5>
+              </div>
+            </div>
+          </div>
+        </section>
 
+        <div class="px-2 py-2 text-center mb-2">
           <div class="d-lg-flex align-items-center text-light p-3 bg_black">
             <div class="d-md-flex align-items-center text-light p-3 position-relative bg_black">
               <div class="col-lg-6 d-none d-lg-block">
@@ -98,27 +107,27 @@
                 <div class="d-flex flex-column align-items-center px-3">
                   <h3>Pack Basico HD</h3>
                   <div class="d-flex flex-wrap gap-2 justify-content-center">
-                    <button id="Deportes" type="button" class="btn btn-outline-light">Deportes</button>
-                    <button id="Documentales" type="button" class="btn btn-outline-light">Documentales</button>
-                    <button id="Entretenimiento" type="button" class="btn btn-outline-light">Entretenimiento</button>
-                    <button id="Películas" type="button" class="btn btn-outline-light">Películas</button>
-                    <button id="Estilo de vida" type="button" class="btn btn-outline-light">Estilo de vida</button>
-                    <button id="Infantil" type="button" class="btn btn-outline-light">Infantil</button>
-                    <button id="Internacional" type="button" class="btn btn-outline-light">Internacional</button>
-                    <button id="Música" type="button" class="btn btn-outline-light">Música</button>
-                    <button id="Noticias" type="button" class="btn btn-outline-light">Noticias</button>
-                    <button id="Religión" type="button" class="btn btn-outline-light">Religión</button>
+                    <button data-filter="Deportes" id="Deportes" type="button" class="btn btn-outline-light">Deportes</button>
+                    <button data-filter="Documentales" id="Documentales" type="button" class="btn btn-outline-light">Documentales</button>
+                    <button data-filter="Entretenimiento" id="Entretenimiento" type="button" class="btn btn-outline-light">Entretenimiento</button>
+                    <button data-filter="Películas" id="Películas" type="button" class="btn btn-outline-light">Películas</button>
+                    <button data-filter="Estilo de vida" id="Estilo de vida" type="button" class="btn btn-outline-light">Estilo de vida</button>
+                    <button data-filter="Infantil" id="Infantil" type="button" class="btn btn-outline-light">Infantil</button>
+                    <button data-filter="Internacional" id="Internacional" type="button" class="btn btn-outline-light">Internacional</button>
+                    <button data-filter="Música" id="Música" type="button" class="btn btn-outline-light">Música</button>
+                    <button data-filter="Noticias" id="Noticias" type="button" class="btn btn-outline-light">Noticias</button>
+                    <button data-filter="Religión" id="Religión" type="button" class="btn btn-outline-light">Religión</button>
                   </div>
                 </div>
               </div>
               <!-- 2do Grupo de Botones -->
               <div class="btn-group justify-content-center my-2 py-2" role="group" aria-label="Second group">
-                <div class="d-flex flex-column align-items-center border-dark px-3 border-dark border-top border-bottom py-3">
+                <div class="d-flex flex-column align-items-center border-dark px-3 border-top border-bottom py-3">
                   <h3>Pack Especiales</h3>
                   <div class="d-flex flex-wrap gap-2 justify-content-center">
-                    <button id="Pack Futbol" type="button" class="btn btn-outline-light">Pack Futbol</button>
-                    <button id="HBO" type="button" class="btn btn-outline-light">Pack HBO</button>
-                    <button id="Adultos" type="button" class="btn btn-outline-light">Pack Adultos</button>
+                    <button data-filter="Pack Futbol" id="Pack Futbol" type="button" class="btn btn-outline-light">Pack Futbol</button>
+                    <button data-filter="Pack HBO" id="HBO" type="button" class="btn btn-outline-light">Pack HBO</button>
+                    <button data-filter="Pack Adultos" id="Adultos" type="button" class="btn btn-outline-light">Pack Adultos</button>
                   </div>
                 </div>
               </div>
@@ -127,7 +136,7 @@
                 <div class="d-flex flex-column align-items-center px-3">
                   <h3>Ver todos los canales</h3>
                   <div class="d-flex gap-2 justify-content-center align-items-center">
-                    <button id="todos" type="button" class="btn btn-outline-light">Mostrar Todos</button>
+                    <button data-filter="Todos los canales" id="todos" type="button" class="btn btn-outline-light">Mostrar Todos</button>
                   </div>
                 </div>
               </div>
@@ -135,7 +144,11 @@
           </div>
         </div>
         
-        <div id="tvChannels" class="d-flex flex-wrap justify-content-center mb-2">
+        <div class="container border-bottom border-dark pb-1">
+          <h2 id="titulo-filtro" style="color: #939393;">Todos los canales</h2>
+        </div>
+
+        <div id="tvChannels" class="container d-flex flex-wrap justify-content-center mb-2">
           <!-- Aquí se generarán dinámicamente los botones de los canales -->
         </div>
       </div>
@@ -267,6 +280,6 @@
 
     <script src="js/crear-botones.js"></script>
     <script src="js/filtro-buttons.js"></script>
-
+    
 </body>
 </html>
