@@ -24,51 +24,25 @@
 </head>
 <body class="bg-black">
     <header class="sticky-top bg-dark">
-        <nav class="container navbar-dark py-3">
-            <div class="conteiner d-flex align-items-center justify-content-between">
-              <div class="navbar-brand">
-                <a href="index.html">
-                  <img src="asets/img/logoNav.png" alt="Bootstrap" width="200px" class="logo-img">
-                </a>
-              </div>              
-              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu principal</h5>
-                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="https://www.elcuatro.com" target="_blank">Pag Oficial</a>
-                    </li>
-                    <li class="nav-item dropdown d-none">
-                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
-                      </a>
-                      <ul class="dropdown-menu dropdown-menu-dark">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li>
-                          <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                      </ul>
-                    </li>
-                  </ul>
-                  <form class="d-flex mt-3 d-none" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-success" type="submit">Search</button>
-                  </form>
-                </div>
-              </div>
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark container">
+        <div class="container-fluid d-flex align-items-center justify-content-between">
+          <div class="navbar-brand">
+            <a href="index.html">
+              <img src="asets/img/logoNav.png" alt="Bootstrap" width="200px" class="logo-img">
+            </a>
+          </div> 
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="index.html">Grillas</a>
+              <a class="nav-link" href="https://www.elcuatro.com/" target="_blank">Pagina oficial</a>
             </div>
-        </nav>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <main class="my-1 flex-grow-1">
