@@ -2,8 +2,8 @@
 
 IP_EPG=192.168.57.56
 PORT_EPG=13013
-PXML="C:/xampp/htdocs/xml/"
-PLOG="C:/xampp/htdocs/sh/script_epg_appear.logs"
+PXML="C:/xampp/htdocs/grillas/xml/"
+PLOG="C:/xampp/htdocs/grillas/sh/script_epg_appear.logs"
 
 echo '0) Borrando archivo xml actual...' > $PLOG
 rm -f $PXML/*.xml
