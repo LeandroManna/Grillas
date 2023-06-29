@@ -1,6 +1,13 @@
 // Ruta del archivo XML
-const xmlFilePath = "xml/reportv_23062103052306290350.xml";
-const xmlCategoryPath = "xml/grilla-category.xml";
+const currentDate = new Date();
+const day = String(currentDate.getDate()).padStart(2, '0');
+const month = String(currentDate.getMonth() + 1).padStart(2, '0');
+const year = String(currentDate.getFullYear()).slice(-2);
+
+const xmlFilePath = `xml/reportv_${year}${month}${day}.xml`;
+
+//La siguiente ruta se utiliza para leer el archivo xml y crear los botones de forma dinamica.
+const xmlCategoryPath = "paginas/grilla-category.xml";
 
 // Función para convertir una cadena de fecha y hora en un objeto Date en GMT-3
 const parseDateTime = (dateTimeString) => {

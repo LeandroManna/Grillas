@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tv>
+  <broadcaster id="101">
+    <broadcaster-name>ReporTv</broadcaster-name>
+  </broadcaster>
+  <channel broadcaster="101" id="100">
+    <channel-name>AMC</channel-name>
+    <category-name>Películas</category-name>
+  </channel>
+  <channel broadcaster="101" id="101">
+    <channel-name>AMERICA SPORTS</channel-name>
+    <category-name>Deportes</category-name>
+  </channel>
+  <channel broadcaster="101" id="102">
+    <channel-name>AMERICA 2 HD</channel-name>
+    <category-name>Noticias</category-name>
+  </channel>
+  <channel broadcaster="101" id="103">
+    <channel-name>26 TV</channel-name>
+    <category-name>Noticias</category-name>
+  </channel>
+  <channel broadcaster="101" id="104">
+    <channel-name>CARTOON NETWORK</channel-name>
+    <category-name>Infantil</category-name>
+  </channel>
+  <channel broadcaster="101" id="106">
+    <channel-name>CONEXIÓN EDUCATIVA</channel-name>
+    <category-name>Entretenimiento</category-name>
+  </channel>
+  <channel broadcaster="101" id="107">
+    <channel-name>CINEMAX</channel-name>
+    <category-name>Películas</category-name>
+  </channel>
+  <channel broadcaster="101" id="108">
+    <channel-name>HGTV</channel-name>
+    <category-name>Estilo de vida</category-name>
+  </channel>
+  <channel broadcaster="101" id="109">
+    <channel-name>DISCOVERY KIDS</channel-name>
+    <category-name>Infantil</category-name>
+  </channel>
+  <channel broadcaster="101" id="110">
+    <channel-name>DISCOVERY SCIENCE</channel-name>
+    <category-name>Documentales</category-name>
+  </channel>
+  <channel broadcaster="101" id="111">
+    <channel-name>DISNEY</channel-name>
+    <category-name>Infantil</category-name>
+  </channel>
+  <channel broadcaster="101" id="112">
+    <channel-name>DISNEY JR</channel-name>
+    <category-name>Infantil</category-name>
+  </channel>
+  <channel broadcaster="101" id="114">
+    <channel-name>ENTERTAINMENT TELEVISION</channel-name>
+    <category-name>Entretenimiento</category-name>
+  </channel>
+  <channel broadcaster="101" id="115">
+    <channel-name>ESPN +</channel-name>
+    <category-name>Deportes</category-name>
+  </channel>
+  <channel broadcaster="101" id="116">
+    <channel-name>EL GOURMET</channel-name>
+    <category-name>Estilo de vida</category-name>
+  </channel>
+  <channel broadcaster="101" id="118">
+    <channel-name>ENCUENTRO</channel-name>
+    <category-name>Documentales</category-name>
+  </channel>
+  <channel broadcaster="101" id="119">
+    <channel-name>ESPN PREMIUM</channel-name>
+    <category-name>Pack Futbol</category-name>
+  </channel>
+  <channel broadcaster="101" id="120">
+    <channel-name>STAR CHANNEL HD</channel-name>
+    <category-name>Entretenimiento</category-name>
+  </channel>
+  <channel broadcaster="101" id="122">
+    <channel-name>FOX SPORTS 2 HD</channel-name>
+    <category-name>Deportes</category-name>
+  </channel>
+  <channel broadcaster="101" id="124">
+    <channel-name>HBO</channel-name>
+    <category-name>HBO</category-name>
+  </channel>
+  <channel broadcaster="101" id="125">
+    <channel-name>I-SAT</channel-name>
+    <category-name>Películas</category-name>
+  </channel>
+  <channel broadcaster="101" id="126">
+    <channel-name>MTV</channel-name>
+    <category-name>Música</category-name>
+  </channel>
+  <channel broadcaster="101" id="127">
+    <channel-name>NATIONAL GEOGRAPHIC HD</channel-name>
+    <category-name>Documentales</category-name>
+  </channel>
+  <channel broadcaster="101" id="128">
+    <channel-name>PAKAPAKA</channel-name>
+    <category-name>Infantil</category-name>
+  </channel>
+  <channel broadcaster="101" id="129">
+    <channel-name>STUDIO UNIVERSAL</channel-name>
+    <category-name>Películas</category-name>
+  </channel>
+  <channel broadcaster="101" id="131">
+    <channel-name>TN</channel-name>
+    <category-name>Noticias</category-name>
+  </channel>
+  <channel broadcaster="101" id="132">
+    <channel-name>TNT SERIES</channel-name>
+    <category-name>Películas</category-name>
+  </channel>
+  <channel broadcaster="101" id="133">
+    <channel-name>TNT SPORTS HD</channel-name>
+    <category-name>Pack Futbol</category-name>
+  </channel>
+  <channel broadcaster="101" id="134">
+    <channel-name>HBO MUNDI HD</channel-name>
+    <category-name>HBO</category-name>
+  </channel>
+  <channel broadcaster="101" id="135">
+    <channel-name>ESPN 3 HD</channel-name>
+    <category-name>Deportes</category-name>
+  </channel>
+  <channel broadcaster="101" id="139">
+    <channel-name>CANAL 13 HD</channel-name>
+    <category-name>Noticias</category-name>
+  </channel>
+  <channel broadcaster="101" id="140">
+    <channel-name>FX HD</channel-name>
+    <category-name>Películas</category-name>
+  </channel>
+  <channel broadcaster="101" id="143">
+    <channel-name>CINECANAL HD</channel-name>
+    <category-name>Películas</category-name>
+  </channel>
+  <channel broadcaster="101" id="146">
+    <channel-name>C5N</channel-name>
+    <category-name>Noticias</category-name>
+  </channel>
+  <channel broadcaster="101" id="150">
+    <channel-name>AXN HD</channel-name>
+    <category-name>Películas</category-name>
+  </channel>
+  <channel broadcaster="101" id="151">
+    <channel-name>FOX SPORTS 3 HD</channel-name>
+    <category-name>Deportes</category-name>
+  </channel>
+  <channel broadcaster="101" id="152">
+    <channel-name>FOX SPORTS HD</channel-name>
+    <category-name>Deportes</category-name>
+  </channel>
+  <channel broadcaster="101" id="153">
+    <channel-name>DISNEY HD</channel-name>
+    <category-name>Infantil</category-name>
+  </channel>
+  <channel broadcaster="101" id="154">
+    <channel-name>HBO 2</channel-name>
+    <category-name>HBO</category-name>
+  </channel>
+  <channel broadcaster="101" id="156">
+    <channel-name>HBO FAMILY</channel-name>
+    <category-name>HBO</category-name>
+  </channel>
+  <channel broadcaster="101" id="157">
+    <channel-name>HBO PLUS HD</channel-name>
+    <category-name>HBO</category-name>
+  </channel>
+  <channel broadcaster="101" id="159">
+    <channel-name>HBO SIGNATURE HD</channel-name>
+    <category-name>HBO</category-name>
+  </channel>
+  <channel broadcaster="101" id="160">
+    <channel-name>HBO XTREME HD</channel-name>
+    <category-name>HBO</category-name>
+  </channel>
+  <channel broadcaster="101" id="162">
+    <channel-name>HBO POP HD</channel-name>
+    <category-name>HBO</category-name>
+  </channel>
+  <channel broadcaster="101" id="163">
+    <channel-name>CANAL 4 JUJUY</channel-name>
+    <category-name>Noticias</category-name>
+  </channel>
+  <channel broadcaster="101" id="164">
+    <channel-name>MTV DANCE</channel-name>
+    <category-name>Música</category-name>
+  </channel>
+  <channel broadcaster="101" id="165">
+    <channel-name>ESPN HD</channel-name>
+    <category-name>Deportes</category-name>
+  </channel>
+  <channel broadcaster="101" id="167">
+    <channel-name>ESPN 2</channel-name>
+    <category-name>Deportes</category-name>
+  </channel>
+  <channel broadcaster="101" id="168">
+    <channel-name>PARAMOUNT</channel-name>
+    <category-name>Películas</category-name>
+  </channel>
+  <channel broadcaster="101" id="169">
+    <channel-name>SPACE HD</channel-name>
+    <category-name>Películas</category-name>
+  </channel>
+  <channel broadcaster="101" id="170">
+    <channel-name>SONY HD</channel-name>
+    <category-name>Entretenimiento</category-name>
+  </channel>
+  <channel broadcaster="101" id="171">
+    <channel-name>TCM</channel-name>
+    <category-name>Películas</category-name>
+  </channel>
+  <channel broadcaster="101" id="172">
+    <channel-name>HISTORY HD</channel-name>
+    <category-name>Documentales</category-name>
+  </channel>
+  <channel broadcaster="101" id="173">
+    <channel-name>CRONICA TV</channel-name>
+    <category-name>Noticias</category-name>
+  </channel>
+  <channel broadcaster="101" id="174">
+    <channel-name>TNT HD</channel-name>
+    <category-name>Películas</category-name>
+  </channel>
+  <channel broadcaster="101" id="175">
+    <channel-name>EL NUEVE HD</channel-name>
+    <category-name>Noticias</category-name>
+  </channel>
+  <channel broadcaster="101" id="176">
+    <channel-name>CANAL 7 JUJUY HD</channel-name>
+    <category-name>Noticias</category-name>
+  </channel>
+  <channel broadcaster="101" id="177">
+    <channel-name>TV PUBLICA HD</channel-name>
+    <category-name>Noticias</category-name>
+  </channel>
+  <channel broadcaster="101" id="178">
+    <channel-name>TRU TV HD</channel-name>
+    <category-name>Entretenimiento</category-name>
+  </channel>
+  <channel broadcaster="101" id="179">
+    <channel-name>TYC SPORTS HD</channel-name>
+    <category-name>Deportes</category-name>
+  </channel>
+  <channel broadcaster="101" id="180">
+    <channel-name>UNIVERSAL CHANNEL HD</channel-name>
+    <category-name>Películas</category-name>
+  </channel>
+  <channel broadcaster="101" id="182">
+    <channel-name>VOLVER</channel-name>
+    <category-name>Entretenimiento</category-name>
+  </channel>
+  <!-- <channel broadcaster="101" id="183">
+    <channel-name>WARNER HD</channel-name>
+    <category-name>Entretenimiento</category-name>
+  </channel> -->
+  <channel broadcaster="101" id="184">
+    <channel-name>AMERICA 24</channel-name>
+    <category-name>Noticias</category-name>
+  </channel>
+  <!-- <channel broadcaster="101" id="185">
+    <channel-name>CN 23</channel-name>
+    <category-name>Noticias</category-name>
+  </channel> -->
+  <channel broadcaster="101" id="186">
+    <channel-name>PLAYBOY</channel-name>
+    <category-name>Adultos</category-name>
+  </channel>
+  <channel broadcaster="101" id="187">
+    <channel-name>VENUS</channel-name>
+    <category-name>Adultos</category-name>
+  </channel>
+  <channel broadcaster="101" id="188">
+    <channel-name>A&amp;E</channel-name>
+    <category-name>Entretenimiento</category-name>
+  </channel>
+  <channel broadcaster="101" id="189">
+    <channel-name>LAS ESTRELLAS</channel-name>
+    <category-name>Entretenimiento</category-name>
+  </channel>
+  <channel broadcaster="101" id="190">
+    <channel-name>TELENOVELAS</channel-name>
+    <category-name>Entretenimiento</category-name>
+  </channel>
+  <channel broadcaster="101" id="191">
+    <channel-name>TVE</channel-name>
+    <category-name>Internacional</category-name>
+  </channel>
+  <channel broadcaster="101" id="192">
+    <channel-name>MAS CHIC</channel-name>
+    <category-name>Estilo de vida</category-name>
+  </channel>
+  <channel broadcaster="101" id="194">
+    <channel-name>EUROPA EUROPA</channel-name>
+    <category-name>Películas</category-name>
+  </channel>
+  <channel broadcaster="101" id="195">
+    <channel-name>CNN EN ESPAÑOL</channel-name>
+    <category-name>Noticias</category-name>
+  </channel>
+  <channel broadcaster="101" id="196">
+    <channel-name>BOLIVISION</channel-name>
+    <category-name>Internacional</category-name>
+  </channel>
+  <channel broadcaster="101" id="197">
+    <channel-name>LA NACION +</channel-name>
+    <category-name>Noticias</category-name>
+  </channel>
+  <channel broadcaster="101" id="198">
+    <channel-name>GOLDEN</channel-name>
+    <category-name>Películas</category-name>
+  </channel>
+  <channel broadcaster="101" id="200">
+    <channel-name>DISCOVERY TRAVEL AND LIVING</channel-name>
+    <category-name>Documentales</category-name>
+  </channel>
+  <channel broadcaster="101" id="201">
+    <channel-name>CANAL DE LA MUSICA</channel-name>
+    <category-name>Música</category-name>
+  </channel>
+  <channel broadcaster="101" id="202">
+    <channel-name>CARTOONITO</channel-name>
+    <category-name>Infantil</category-name>
+  </channel>
+  <channel broadcaster="101" id="203">
+    <channel-name>CIUDAD MAGAZINE</channel-name>
+    <category-name>Entretenimiento</category-name>
+  </channel>
+  <channel broadcaster="101" id="204">
+    <channel-name>DISCOVERY</channel-name>
+    <category-name>Documentales</category-name>
+  </channel>
+  <channel broadcaster="101" id="205">
+    <channel-name>NICKELODEON</channel-name>
+    <category-name>Infantil</category-name>
+  </channel>
+  <channel broadcaster="101" id="206">
+    <channel-name>EWTN</channel-name>
+    <category-name>Religión</category-name>
+  </channel>
+  <channel broadcaster="101" id="207">
+    <channel-name>DISCOVERY ID</channel-name>
+    <category-name>Documentales</category-name>
+  </channel>
+  <channel broadcaster="101" id="208">
+    <channel-name>DISCOVERY H&amp;H</channel-name>
+    <category-name>Documentales</category-name>
+  </channel>
+  <channel broadcaster="101" id="209">
+    <channel-name>DISCOVERY TURBO</channel-name>
+    <category-name>Documentales</category-name>
+  </channel>
+  <channel broadcaster="101" id="210">
+    <channel-name>ANIMAL PLANET</channel-name>
+    <category-name>Documentales</category-name>
+  </channel>
+  <channel broadcaster="101" id="211">
+    <channel-name>DISCOVERY HD</channel-name>
+    <category-name>Documentales</category-name>
+  </channel>
+  <channel broadcaster="101" id="212">
+    <channel-name>FOOD NETWORK</channel-name>
+    <category-name>Estilo de vida</category-name>
+  </channel>
+  <channel broadcaster="101" id="213">
+    <channel-name>BOLIVIA TV</channel-name>
+    <category-name>Internacional</category-name>
+  </channel>
+  <channel broadcaster="101" id="214">
+    <channel-name>DISCOVERY THEATER HD</channel-name>
+    <category-name>Documentales</category-name>
+  </channel>
+  <channel broadcaster="101" id="215">
+    <channel-name>DISCOVERY WORLD HD</channel-name>
+    <category-name>Documentales</category-name>
+  </channel>
+  <channel broadcaster="101" id="216">
+    <channel-name>MUCHMUSIC</channel-name>
+    <category-name>Música</category-name>
+  </channel>
+  <channel broadcaster="101" id="217">
+    <channel-name>FILM&amp;ARTS</channel-name>
+    <category-name>Películas</category-name>
+  </channel>
+  <channel broadcaster="101" id="219">
+    <channel-name>TOONCAST</channel-name>
+    <category-name>Infantil</category-name>
+  </channel>
+  <channel broadcaster="101" id="220">
+    <channel-name>NICK JR.</channel-name>
+    <category-name>Infantil</category-name>
+  </channel>
+  <channel broadcaster="101" id="221">
+    <channel-name>DHE</channel-name>
+    <category-name>Entretenimiento</category-name>
+  </channel>
+  <channel broadcaster="101" id="222">
+    <channel-name>COMEDY CENTRAL</channel-name>
+    <category-name>Entretenimiento</category-name>
+  </channel>
+  <channel broadcaster="101" id="223">
+    <channel-name>LIFETIME</channel-name>
+    <category-name>Entretenimiento</category-name>
+  </channel>
+  <channel broadcaster="101" id="224">
+    <channel-name>CANAL A</channel-name>
+    <category-name>Documentales</category-name>
+  </channel>
+  <channel broadcaster="101" id="225">
+    <channel-name>H2</channel-name>
+    <category-name>Documentales</category-name>
+  </channel>
+  <channel broadcaster="101" id="226">
+    <channel-name>TBS VERYFUNNY</channel-name>
+    <category-name>Entretenimiento</category-name>
+  </channel>
+  <channel broadcaster="101" id="227">
+    <channel-name>VE PLUS TV</channel-name>
+    <category-name>Entretenimiento</category-name>
+  </channel>
+  <channel broadcaster="101" id="228">
+    <channel-name>NICKMUSIC</channel-name>
+    <category-name>Música</category-name>
+  </channel>
+  <channel broadcaster="101" id="229">
+    <channel-name>IP</channel-name>
+    <category-name>Entretenimiento</category-name>
+  </channel>
+  <channel broadcaster="101" id="230">
+    <channel-name>TYC SPORTS 2</channel-name>
+    <category-name>Deportes</category-name>
+  </channel>
+  <channel broadcaster="101" id="232">
+    <channel-name>SYFY</channel-name>
+    <category-name>Entretenimiento</category-name>
+  </channel>
+  <channel broadcaster="101" id="233">
+    <channel-name>GLITZ</channel-name>
+    <category-name>Entretenimiento</category-name>
+  </channel>
+  <channel broadcaster="101" id="234">
+    <channel-name>CANAL LUZ</channel-name>
+    <category-name>Religión</category-name>
+  </channel>
+  <channel broadcaster="101" id="235">
+    <channel-name>DEPORTV</channel-name>
+    <category-name>Deportes</category-name>
+  </channel>
+  <channel broadcaster="101" id="236">
+    <channel-name>SONY MOVIES</channel-name>
+    <category-name>Películas</category-name>
+  </channel>
+  <channel broadcaster="101" id="237">
+    <channel-name>DREAMWORKS</channel-name>
+    <category-name>Infantil</category-name>
+  </channel>
+  <channel broadcaster="101" id="238">
+    <channel-name>ARGENTINISIMA</channel-name>
+    <category-name>Internacional</category-name>
+  </channel>
+  <channel broadcaster="101" id="239">
+    <channel-name>TELEMUNDO</channel-name>
+    <category-name>Internacional</category-name>
+  </channel>
+  <channel broadcaster="101" id="241">
+    <channel-name>SEXTREME</channel-name>
+    <category-name>Adultos</category-name>
+  </channel>
+</tv>
