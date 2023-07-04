@@ -122,16 +122,16 @@
                 <div class="d-flex flex-column align-items-center px-3">
                   <h3>Pack Basico HD</h3>
                   <div class="d-flex flex-wrap gap-2 justify-content-center">
-                    <button data-filter="Deportes" id="Deportes" type="button" class="btn btn-outline-light">Deportes</button>
-                    <button data-filter="Documentales" id="Documentales" type="button" class="btn btn-outline-light">Documentales</button>
-                    <button data-filter="Entretenimiento" id="Entretenimiento" type="button" class="btn btn-outline-light">Entretenimiento</button>
-                    <button data-filter="Películas" id="Películas" type="button" class="btn btn-outline-light">Películas</button>
-                    <button data-filter="Estilo de vida" id="Estilo de vida" type="button" class="btn btn-outline-light">Estilo de vida</button>
-                    <button data-filter="Infantil" id="Infantil" type="button" class="btn btn-outline-light">Infantil</button>
-                    <button data-filter="Internacional" id="Internacional" type="button" class="btn btn-outline-light">Internacional</button>
-                    <button data-filter="Música" id="Música" type="button" class="btn btn-outline-light">Música</button>
-                    <button data-filter="Noticias" id="Noticias" type="button" class="btn btn-outline-light">Noticias</button>
-                    <button data-filter="Religión" id="Religión" type="button" class="btn btn-outline-light">Religión</button>
+                    <button data-filter="Deportes" id="Deportes" type="button" class="btn btn-outline-light" onclick="scrollToChannels()">Deportes</button>
+                    <button data-filter="Documentales" id="Documentales" type="button" class="btn btn-outline-light" onclick="scrollToChannels()">Documentales</button>
+                    <button data-filter="Entretenimiento" id="Entretenimiento" type="button" class="btn btn-outline-light" onclick="scrollToChannels()">Entretenimiento</button>
+                    <button data-filter="Películas" id="Películas" type="button" class="btn btn-outline-light" onclick="scrollToChannels()">Películas</button>
+                    <button data-filter="Estilo de vida" id="Estilo de vida" type="button" class="btn btn-outline-light" onclick="scrollToChannels()">Estilo de vida</button>
+                    <button data-filter="Infantil" id="Infantil" type="button" class="btn btn-outline-light" onclick="scrollToChannels()">Infantil</button>
+                    <button data-filter="Internacional" id="Internacional" type="button" class="btn btn-outline-light" onclick="scrollToChannels()">Internacional</button>
+                    <button data-filter="Música" id="Música" type="button" class="btn btn-outline-light" onclick="scrollToChannels()">Música</button>
+                    <button data-filter="Noticias" id="Noticias" type="button" class="btn btn-outline-light" onclick="scrollToChannels()">Noticias</button>
+                    <button data-filter="Religión" id="Religión" type="button" class="btn btn-outline-light" onclick="scrollToChannels()">Religión</button>
                   </div>
                 </div>
               </div>
@@ -140,9 +140,9 @@
                 <div class="d-flex flex-column align-items-center border-dark px-3 border-top border-bottom py-3">
                   <h3>Pack Especiales</h3>
                   <div class="d-flex flex-wrap gap-2 justify-content-center">
-                    <button data-filter="Pack Futbol" id="Pack Futbol" type="button" class="btn btn-outline-light">Pack Futbol</button>
-                    <button data-filter="Pack HBO" id="HBO" type="button" class="btn btn-outline-light">Pack HBO</button>
-                    <button data-filter="Pack Adultos" id="Adultos" type="button" class="btn btn-outline-light">Pack Adultos</button>
+                    <button data-filter="Pack Futbol" id="Pack Futbol" type="button" class="btn btn-outline-light" onclick="scrollToChannels()">Pack Futbol</button>
+                    <button data-filter="Pack HBO" id="HBO" type="button" class="btn btn-outline-light" onclick="scrollToChannels()">Pack HBO</button>
+                    <button data-filter="Pack Adultos" id="Adultos" type="button" class="btn btn-outline-light" onclick="scrollToChannels()">Pack Adultos</button>
                   </div>
                 </div>
               </div>
@@ -295,5 +295,15 @@
 
     <script src="js/crear-botones.js"></script>
     <script src="js/filtro-buttons.js"></script>
+
+    <!-- Desplazamiento hacia el ttitulo -->
+    <script>
+      function scrollToChannels() {
+        const tvChannels = document.getElementById("titulo-filtro");
+        const headerHeight = 100; // Ajusta este valor según la altura de tu encabezado superior
+        const offset = tvChannels.getBoundingClientRect().top - headerHeight;
+        window.scrollBy({ top: offset, behavior: 'smooth' });
+      }
+    </script>
 </body>
 </html>

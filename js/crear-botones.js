@@ -134,9 +134,18 @@ const showProgramacion = (channelId, channelName) => {
       channelImage.style.marginRight = "10px";
       channelImage.style.objectFit = "contain";
 
+      // Obtener la fecha actual
+      const currentDate = new Date();
+      const options = { weekday: 'long', day: 'numeric', month: 'long' };
+      const formatter = new Intl.DateTimeFormat('es-ES', options);
+      const formattedDate = formatter.format(currentDate);
+
+      // Convertir la primera letra del día de la semana y del mes en mayúsculas
+      const formattedDateCapitalized = formattedDate.replace(/^\w/, c => c.toUpperCase());
+
       Swal.fire({
         title: `<div style="display: flex; align-items: center;"><img src="${imageUrl}" style="width: 100px; height: 100px; margin-right: 10px; object-fit: contain;"><h3><strong>${channelName}</strong></h3></div>`,
-        html: table.outerHTML,
+        html: `<div style="text-align: left;"><strong>${formattedDateCapitalized}</strong></div>` + table.outerHTML, // Agregar el texto de fecha debajo del título y alinearlo a la izquierda
         showConfirmButton: true,
         width: '80%',
         didRender: () => {
